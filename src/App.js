@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import "./App.css";
+import BasicRef from "./basicRef/BasicRef";
+import CallBackRef from "./callbackRef/CallBackRef";
+import ParentComponent from "./parentToChildRef/parent/ParentComponent";
+import ForwardParent from "./forwardRef/parent/ForwardParent";
+import FormRef from "./formValidation/FormRef";
+import NavBar from './navigation/NavBar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <Route>
+        <NavBar />
+        <Switch>
+          <Route path="/basic" component={BasicRef} />
+          <Route path="/callback" component={CallBackRef} />
+          <Route path="/parent" component={ParentComponent} />
+          <Route path="/forward" component={ForwardParent} />
+          <Route path="/form" component={FormRef} />
+        </Switch>
+      </Route>
+    );
+  }
 }
-
-export default App;
