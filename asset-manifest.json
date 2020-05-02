@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/todorovicjelena/react-ref.git/static/css/main.cc652818.chunk.css",
-    "main.js": "/todorovicjelena/react-ref.git/static/js/main.04543c52.chunk.js",
-    "main.js.map": "/todorovicjelena/react-ref.git/static/js/main.04543c52.chunk.js.map",
-    "runtime-main.js": "/todorovicjelena/react-ref.git/static/js/runtime-main.0bca8f18.js",
-    "runtime-main.js.map": "/todorovicjelena/react-ref.git/static/js/runtime-main.0bca8f18.js.map",
-    "static/js/2.623b7eb0.chunk.js": "/todorovicjelena/react-ref.git/static/js/2.623b7eb0.chunk.js",
-    "static/js/2.623b7eb0.chunk.js.map": "/todorovicjelena/react-ref.git/static/js/2.623b7eb0.chunk.js.map",
+    "main.css": "/todorovicjelena/react-ref.git/static/css/main.8c7410e8.chunk.css",
+    "main.js": "/todorovicjelena/react-ref.git/static/js/main.9c5fc020.chunk.js",
+    "main.js.map": "/todorovicjelena/react-ref.git/static/js/main.9c5fc020.chunk.js.map",
+    "runtime-main.js": "/todorovicjelena/react-ref.git/static/js/runtime-main.26ede8f1.js",
+    "runtime-main.js.map": "/todorovicjelena/react-ref.git/static/js/runtime-main.26ede8f1.js.map",
+    "static/js/2.96b8fae2.chunk.js": "/todorovicjelena/react-ref.git/static/js/2.96b8fae2.chunk.js",
+    "static/js/2.96b8fae2.chunk.js.map": "/todorovicjelena/react-ref.git/static/js/2.96b8fae2.chunk.js.map",
     "index.html": "/todorovicjelena/react-ref.git/index.html",
-    "precache-manifest.76fa56d95c31f7e4bacbef54bca29807.js": "/todorovicjelena/react-ref.git/precache-manifest.76fa56d95c31f7e4bacbef54bca29807.js",
+    "precache-manifest.582df4b2a6de0e223545e165aa46ae16.js": "/todorovicjelena/react-ref.git/precache-manifest.582df4b2a6de0e223545e165aa46ae16.js",
     "service-worker.js": "/todorovicjelena/react-ref.git/service-worker.js",
-    "static/css/main.cc652818.chunk.css.map": "/todorovicjelena/react-ref.git/static/css/main.cc652818.chunk.css.map",
-    "static/js/2.623b7eb0.chunk.js.LICENSE.txt": "/todorovicjelena/react-ref.git/static/js/2.623b7eb0.chunk.js.LICENSE.txt"
+    "static/css/main.8c7410e8.chunk.css.map": "/todorovicjelena/react-ref.git/static/css/main.8c7410e8.chunk.css.map",
+    "static/js/2.96b8fae2.chunk.js.LICENSE.txt": "/todorovicjelena/react-ref.git/static/js/2.96b8fae2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bca8f18.js",
-    "static/js/2.623b7eb0.chunk.js",
-    "static/css/main.cc652818.chunk.css",
-    "static/js/main.04543c52.chunk.js"
+    "static/js/runtime-main.26ede8f1.js",
+    "static/js/2.96b8fae2.chunk.js",
+    "static/css/main.8c7410e8.chunk.css",
+    "static/js/main.9c5fc020.chunk.js"
   ]
 }
