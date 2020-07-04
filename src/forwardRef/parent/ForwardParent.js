@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ForwardChild from "../child/ForwardChild";
+import React, { Component } from 'react';
+import ForwardChild from '../child/ForwardChild';
 
 //or const inputRef = React.createRef();
 export default class ForwardParent extends Component {
@@ -7,7 +7,7 @@ export default class ForwardParent extends Component {
     super(props);
     this.inputRef = React.createRef();
     this.state = {
-      value: "",
+      value: '',
     };
   }
 
@@ -25,7 +25,7 @@ export default class ForwardParent extends Component {
         <h3>Value: {this.state.value}</h3>
         <form onSubmit={this.handleSubmit}>
           <ForwardChild ref={this.inputRef} />
-          <button className="btn">Submit</button>
+          <button className='btn'>Submit</button>
         </form>
       </div>
     );
